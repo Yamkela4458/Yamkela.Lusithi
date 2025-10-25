@@ -159,7 +159,7 @@ body{
     text-align: center;
     padding: 2rem 1rem;
     margin-top: 160px;
-    animation: bounce 3s infinite;
+    animation: bounce 2s infinite;
 }
 
 @keyframes bounce {
@@ -227,12 +227,12 @@ body{
   border-radius: 50%;
   object-fit: cover;
   transform-origin: center center;
-  animation: rotateInfinite 12s linear infinite;
+  animation: rotateInfinite 5s linear infinite;
 }
 
 .img1 { animation-delay: 0s; }
 .img2 { animation-delay: 4s; }
-.img3 { animation-delay: 8s; }
+.img3 { animation-delay: 6s; }
 
 @keyframes rotateInfinite {
   0% {
@@ -413,7 +413,7 @@ section#project h1{
   gap: 60px;
   list-style: none;
   align-items: center;
-  animation: scroll 10s linear infinite;
+  animation: scroll 6s linear infinite;
 }
 .skills-list.right-to-left {
   animation-direction: reverse;
@@ -465,7 +465,7 @@ section#project h1{
   top: 50px;
   right: -100px;
   box-shadow: 0 0 30px #f0bda2;
-  animation: moveMoon 30s linear infinite;
+  animation: moveMoon 20s linear infinite;
   z-index: 2;
 }
 
@@ -779,3 +779,4 @@ button:hover{
     flex-direction: column;
   }
 }
+
