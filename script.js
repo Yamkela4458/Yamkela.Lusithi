@@ -3,14 +3,15 @@ window.addEventListener("load", function() {
   const loader = document.getElementById("loader");
   const content = document.getElementById("content");
 
+  
   setTimeout(() => {
     loader.style.display = "none";
     content.style.display = "block";
-  }, 1000); 
+  }, 800); 
 });
 
-
 const cards = document.querySelectorAll('.service-card');
+
 
 const observer = new IntersectionObserver(entries => {
   entries.forEach(entry => {
@@ -39,7 +40,6 @@ form.addEventListener("submit", async e => {
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ name, email, message })
   });
-
 
   if (response.ok) {
     alert("Message sent successfully!");
