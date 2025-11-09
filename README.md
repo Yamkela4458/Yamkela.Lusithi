@@ -1,5 +1,6 @@
 # Yamkela.Lusithi
 This is my Portfolio.
+
 *Frontend Developer Portfolio*
 
 Welcome to my frontend development portfolio. Here you can explore my projects, see my technical skills, and learn more about the work I deliver.
