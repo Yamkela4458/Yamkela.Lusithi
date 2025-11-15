@@ -160,6 +160,23 @@ body{
   95% { color: #0b07ee;}
 }
 
+.contents h3{
+  font-size: 30px;
+  margin: 10px;
+  text-align: center;
+  justify-content: center;
+  overflow: hidden;
+  animation: colorChange 8s infinite;
+}
+
+@keyframes colorChange{
+  0% { color: #fff; }
+  25% { color: rgb(236, 137, 8); }
+  50% { color: #53f204; }
+  75% { color: #a30a33; }
+  95% { color: #0805bf;}
+}
+
 /* Tools */
 .tools{
   background: transparent;
@@ -790,3 +807,4 @@ button:hover{
     flex-direction: column;
   }
 }
+
