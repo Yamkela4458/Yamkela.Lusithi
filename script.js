@@ -7,7 +7,7 @@ window.addEventListener("load", function() {
   setTimeout(() => {
     loader.style.display = "none";
     content.style.display = "block";
-  }, 800); 
+  }, 500); 
 });
 
 const cards = document.querySelectorAll('.service-card');
@@ -48,3 +48,4 @@ form.addEventListener("submit", async e => {
     alert("Message sent successfully!");
   }
 });
+
