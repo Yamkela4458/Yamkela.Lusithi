@@ -154,26 +154,9 @@ body{
 
 @keyframes colorChange{
   0% { color: #fff; }
-  25% { color: burlywood; }
-  50% { color: #f25b04; }
-  75% { color: #fff; }
-  95% { color: #0b07ee;}
-}
-
-.contents h3{
-  font-size: 30px;
-  margin: 10px;
-  text-align: center;
-  justify-content: center;
-  overflow: hidden;
-  animation: colorChange 8s infinite;
-}
-
-@keyframes colorChange{
-  0% { color: #fff; }
-  25% { color: rgb(236, 137, 8); }
-  50% { color: #53f204; }
-  75% { color: #a30a33; }
+  25% { color: rgb(111, 65, 4); }
+  50% { color: #f20404; }
+  75% { color: #a34c0a; }
   95% { color: #0805bf;}
 }
 
@@ -807,4 +790,3 @@ button:hover{
     flex-direction: column;
   }
 }
-
