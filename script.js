@@ -26,7 +26,7 @@ cards.forEach(card => {
   observer.observe(card);
 });
 
-
+// Contact form //
 const form = document.querySelector("#contact form");
 
 form.addEventListener("submit", async e => {
@@ -48,4 +48,5 @@ form.addEventListener("submit", async e => {
     alert("Message sent successfully!");
   }
 });
+
 
