@@ -1,3 +1,4 @@
+/* Body */
 body{
   margin: 0;
   background-size: cover;
@@ -790,4 +791,5 @@ button:hover{
     flex-direction: column;
   }
 }
+
 
