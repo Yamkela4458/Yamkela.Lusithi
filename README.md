@@ -1,12 +1,12 @@
 # Yamkela.Lusithi
 This is my Portfolio.
 
-*Frontend Developer Portfolio*
+*Frontend Engineer Portfolio*
 
-Welcome to my frontend development portfolio. Here you can explore my projects, see my technical skills, and learn more about the work I deliver.
+Welcome to my frontend Engineering portfolio. Here you can explore my projects, see my technical skills, and learn more about the work I deliver.
 
 # About This Portfolio
 
-This repository showcases my work (projects) as a Frontend Developer.
+This repository showcases my work (projects).
 It includes responsive, accessible, and interactive web applications built using modern technologies. 
 Each project demonstrates practical application of web development principles, UI design, and best practices.
