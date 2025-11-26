@@ -1,9 +1,9 @@
 # Yamkela.Lusithi
 This is my Portfolio.
 
-*Frontend Engineer Portfolio*
+*Frontend Developer Portfolio*
 
-Welcome to my frontend Engineering portfolio. Here you can explore my projects, see my technical skills, and learn more about the work I deliver.
+Here you can explore my projects, see my technical skills, and learn more about the work I deliver.
 
 # About This Portfolio
 
