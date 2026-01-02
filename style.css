@@ -36,7 +36,7 @@ body{
 }
 
 #header{
-  background-image: url(images/IMG_0878.jpg);
+  background-image: url(images/background.jpg);
   background-size: cover;
 }
 .heading p{
@@ -885,4 +885,3 @@ button:hover{
     flex-direction: column;
   }
 }
-
