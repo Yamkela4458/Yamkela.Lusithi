@@ -155,7 +155,7 @@ body{
 
 .intro{
   font-size: 1.8rem;      
-  color: rgb(242, 175, 4);
+  color: rgb(219, 202, 157);
   text-align: center;          
 }
 
@@ -413,6 +413,10 @@ section#project h1{
   transform: translateY(-3px);
 }
 
+.project-button {
+  text-decoration: none;
+  color: grey;
+}
 /* Technical skills */
 .technical-skills {
   background: #000;
@@ -468,7 +472,7 @@ section#project h1{
 .skills-night{
   position: relative;
   width: 100%;
-  min-height: 500px;
+  min-height: 300px;
   background: #0b0c1c;
   overflow: hidden;
   color: #fff;
@@ -716,62 +720,61 @@ section#project h1{
 
 /* Services */
 #services{
-    max-width: 768px;
-    margin: 2rem auto;
-    padding: 2rem;
-    text-align: center;
+  max-width: 768px;
+  margin: 2rem auto;
+  padding: 2rem;
+  text-align: center;
 }
 
 #services h1{
-    font-size: 3.2rem;
-    font-weight: 500;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 3.2rem;
+  font-weight: 500;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .section-title{
-    font-size: 2.6rem;
-    color: #deb887;
-    margin-bottom: 0.5rem;
+  font-size: 2.6rem;
+  color: #deb887;
+  margin-bottom: 0.5rem;
 }
 
 .section-sub{
-    color: #d27d05;
-    font-size: 1.5rem;
-    margin-bottom: 2rem;
+  color: #d27d05;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
 }
 
-.services-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 1.5rem;
+.services-grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
 }
 
 .service-card{
-    background: #fff;
-    border-radius: 10px;
-    padding: 1.5rem;
-    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
-    opacity: 0;
-    transform: translateY(20px);
-    transition: all 0.5s ease;
+  background: #fff;
+  border-radius: 10px;
+  padding: 1.5rem;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.5s ease;
 }
 
 .service-card.show{
-    opacity: 1;
-    transform: translateY(0);
+  opacity: 1;
+  transform: translateY(0);
 }
 
 .service-title{
-    color: #222;
-    font-size: 1.2rem;
-    margin-bottom: 0.5rem;
+  color: #222;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
 }
 
 .service-text{
     color: #555;
     font-size: 1.3rem;
 }
-
 
 /* --- Contact Form --- */
 form{
@@ -885,4 +888,3 @@ button:hover{
     flex-direction: column;
   }
 }
-
